@@ -20,6 +20,7 @@ These skills work with **Claude Code** (as personal or project skills) and can b
 | Skill | What it does | Triggers when you say things like |
 |---|---|---|
 | [`markdown-study-guides`](skills/markdown-study-guides/SKILL.md) | Creates accurate Markdown study guides, maintains a `main.md` index, and corrects existing notes. Includes validation for table-of-contents links, cross-file links, and Mermaid diagrams. | "Make a Markdown guide for databases", "Correct my MD file", "Add this topic to my notes" |
+| [`commit-and-pr-writer`](skills/commit-and-pr-writer/SKILL.md) | Writes Conventional Commit messages and pull request descriptions from a git diff. Includes a diff scanner (flags secrets, debug code, missing tests, risky migrations) and a commit-message linter. | "Write a commit message", "Write a PR description", "Summarize my changes", "Split my commits" |
 
 _Add a row here for every new skill._
 
